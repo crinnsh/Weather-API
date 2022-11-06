@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?sky');
+	background-size: cover;
+    font-size: 105%;
+}
+
+.container{
+    background: #000000d0;
+    color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.search-bar{
+    font-family: inherit;
+    outline: none;
+    padding: .5rem;
+    border: none;
+    color: white;
+    background: #7c7c7c2b;
+    font-size: 120%;
+    border-radius: 40px;
+    width: calc(100% - 80px)
+}
+
+button{
+    margin: .5rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #7c7c7c2b;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+button:hover{
+    background: #ffffffa0;
+}
+
+h2.temp {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 4px;
+}
